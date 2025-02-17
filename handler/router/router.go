@@ -6,7 +6,8 @@ import (
 )
 
 func NewRouter(todoDB *sql.DB) *http.ServeMux {
-	// register routes
+
+	// NOTE: ここに新しいエンドポイントを登録する
 	mux := http.NewServeMux()
 	return mux
 }
